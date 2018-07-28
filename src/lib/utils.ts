@@ -46,3 +46,6 @@ export const binToHex = (bytes: Uint8Array) =>
     (str, byte) => str + byte.toString(hexadecimal).padStart(hexByteWidth, '0'),
     ''
   );
+
+// const stringToCharsUint8Array = (str: string) =>
+//   new Uint8Array([...str].map(c => c.charCodeAt(0)));
