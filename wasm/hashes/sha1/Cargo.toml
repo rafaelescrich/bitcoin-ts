@@ -13,7 +13,7 @@ crate-type = ["cdylib"]
 [dependencies]
 arrayref = '0.3.4'
 sha-1 = '0.7.0'
-wasm-bindgen = '0.2.11'
+wasm-bindgen = '0.2.15'
 
 [profile.release]
 panic = 'abort'

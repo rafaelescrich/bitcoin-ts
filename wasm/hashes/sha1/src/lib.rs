@@ -1,4 +1,4 @@
-#![feature(proc_macro, wasm_import_module, wasm_custom_section)]
+// #![feature(proc_macro, wasm_import_module, wasm_custom_section)]
 
 extern crate sha1;
 extern crate wasm_bindgen;
