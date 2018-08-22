@@ -1,8 +1,8 @@
 [package]
-name = "sha256"
+name = "sha3-256"
 version = "0.1.0"
-authors = ["Jason Dreyzehner <jason@dreyzehner.com>"]
-description = "Sha256 for bitcoin-ts"
+authors = ["Rafael Escrich <rafaelescrich@gmail.com>"]
+description = "Sha3-256 for bitcoin-ts"
 license = "MIT"
 repository = "https://github.com/bitjson/bitcoin-ts/"
 publish = false
@@ -12,7 +12,7 @@ crate-type = ["cdylib"]
 
 [dependencies]
 arrayref = '0.3.4'
-sha2 = '0.7.1'
+sha3 = '0.7.3'
 wasm-bindgen = '0.2.15'
 
 [profile.release]

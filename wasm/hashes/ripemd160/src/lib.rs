@@ -1,4 +1,4 @@
-#![feature(proc_macro, wasm_import_module, wasm_custom_section)]
+// #![feature(proc_macro, wasm_import_module, wasm_custom_section)]
 
 extern crate ripemd160;
 extern crate wasm_bindgen;
@@ -14,7 +14,7 @@ pub fn ripemd160(input: &[u8]) -> Vec<u8> {
 }
 
 #[test]
-fn ripemd160_hash() {
+fn ripemd160_hash() {wasm-bindgen = '0.2.11'
     let hash_abc = vec![
         142, 178, 8, 247, 224, 93, 152, 122, 155, 4, 74, 142, 152, 198, 176, 135, 241, 90, 11, 252,
     ];
